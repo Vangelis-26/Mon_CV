@@ -1,4 +1,4 @@
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,22 +7,41 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="carre-navigation.css">
     <title>Mon CV</title>
 </head>
 <body>
-    <div id="carre-navigation">
-        <div>  
-            <a href="images/photo-main.jpg"><img src="images/photo-main-mini.jpg" alt="photo-main"></a>
+    <div class="carre-navigation">
+        <div class="photo-main">  
+            <a href="images/photo-main.jpg"><img src="images/photo-main-modified.png" alt="photo-main"></a>
         </div>
-        <div class="home">
-            Accueil
+        <div class="menu">
+            <div class="home">
+                <a href="index.html">Accueil</a>
+            </div>
+            <div class="a-propos">
+                <a href="a-propos.html">A propos de moi</a>
+            </div>
+            <div class="contact">
+                <a href="contact.html">Contact</a>    
+            </div>
         </div>
-        <div class="a-propos">
-            A propos de moi
-        </div>
-        <div class="contact">
-            Contact    
-        </div>
+    </div>
+    <div class="carré-formation">
+        <H1>Formations</H1>
+        <table>
+            <tr>
+                <th></th>
+                <th>Etablissements</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>Ensemble scolaire Chabrillan</td>
+                <td>Présentation de Marie</td>
+                <td>Académie de l'entreprise</td>
+            </tr>       
+        </table>
     </div>
 </body>
 </html>
