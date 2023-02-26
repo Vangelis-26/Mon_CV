@@ -1,15 +1,26 @@
 * {
     margin: 0;
-  }
-
-h1 {
-  padding-bottom: 1.8em;
-  text-align: center;
 }
 
 .fond {
   background-image: url(images/paysage.jpg);
   background-color: white;
   background-repeat: no-repeat;
-  opacity: 70%;
+  opacity: 85%;
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.presentation {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  color: #17181B;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 25px;
+  padding-bottom: 24%;
+  padding-right: 8%;
 }
