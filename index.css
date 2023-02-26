@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+  }
+
+h1 {
+  padding-bottom: 1.8em;
+  text-align: center;
+}
+
+.fond {
+  background-image: url(images/paysage.jpg);
+  background-color: white;
+  background-repeat: no-repeat;
+  opacity: 70%;
+}
