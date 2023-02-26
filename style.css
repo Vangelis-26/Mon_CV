@@ -37,5 +37,5 @@ thead,
 tbody,
 tfoot {
     border-bottom: 1px solid whitesmoke;
-    border-radius: 0px 0px 0px 3px;
+    border-bottom-left-radius: 3px;
 }
