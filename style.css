@@ -45,3 +45,27 @@ h1 {
     grid-template-columns: 0.5fr 1fr 2fr 2fr;
     gap: 20px;
 }
+
+.chabrillan {
+    background: linear-gradient(#343A40,#27292e);
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
+
+.chabrillan:hover {
+    background: linear-gradient(#343A40,#17181B);
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
+
+.presentation-de-marie {
+    background: linear-gradient(#343A40,#27292e);
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
+
+.presentation-de-marie:hover {
+    background: linear-gradient(#343A40,#17181B);
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
