@@ -7,6 +7,13 @@ body {
     background-color: #343A40;
 }
 
+h1 {
+    color: whitesmoke;
+    text-shadow: 1px 1px 15px black;
+    opacity: 85%;
+    padding-bottom: 5rem;
+}
+
 .carre-formation {
     display: flex;
     flex-direction: column;
@@ -16,26 +23,49 @@ body {
     color: #17181B;
 }
 
-table a {
-    color: whitesmoke;
+.carre-formation a {
+    color: whitesmoke;   
     text-decoration: none;
 }
 
-table {
+.school {
+    color: whitesmoke;
+    text-align: start;
     display: flex;
-    flex-direction: column;
-    color: whitesmoke;
-    text-decoration: none;
-}
-    
-tr, td {
-    padding-top: 2.5em;
-    padding-left: 2em;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-radius: 4px 4px;
+    box-shadow: 3px 3px 2px 1px rgba(22, 22, 22, 0.2);
+    padding: 2rem;
 }
 
-thead,
-tbody,
-tfoot {
-    border-bottom: 1px solid whitesmoke;
-    border-bottom-left-radius: 3px;
+.table {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 2fr 2fr;
+    gap: 20px;
+}
+
+.chabrillan {
+    background: linear-gradient(#343A40,#27292e);
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
+
+.chabrillan:hover {
+    background: linear-gradient(#343A40,#17181B);
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
+
+.presentation-de-marie {
+    background: linear-gradient(#343A40,#27292e);
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
+
+.presentation-de-marie:hover {
+    background: linear-gradient(#343A40,#17181B);
+    border-radius: 5rem;
+    padding: 0.5rem;
 }
