@@ -9,7 +9,8 @@ body {
 
 h1 {
     color: whitesmoke;
-    opacity: 80%;
+    text-shadow: 1px 1px 15px black;
+    opacity: 85%;
     padding-bottom: 5rem;
 }
 
@@ -33,13 +34,14 @@ h1 {
     display: flex;
     justify-content: start;
     align-items: center;
-    border: 1px solid whitesmoke;
-    border-radius: 4px 4px 4px 4px;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-radius: 4px 4px;
+    box-shadow: 3px 3px 2px 1px rgba(22, 22, 22, 0.2);
     padding: 2rem;
 }
 
 .table {
     display: grid;
     grid-template-columns: 0.5fr 1fr 2fr 2fr;
-    gap: 10px;
+    gap: 20px;
 }
