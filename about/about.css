@@ -33,6 +33,12 @@
     width: 35%;
 }
 
+.informations span {
+    border-bottom: 1.5px solid #01A3E0;
+    border-radius: 0 5px;
+    font-size: 21px;
+}
+
 .container-contact {
     display: flex;
     justify-content: space-between;
@@ -67,13 +73,6 @@ li {
     margin-top: 0.5rem;
     padding-left: 1.7rem;
 }
-
-.title {
-    border-bottom: 1.5px solid #01A3E0;
-    border-radius: 0 5px;
-    font-size: 21px;
-}
-
 
 .me {
     width: 85%;
