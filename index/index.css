@@ -1,9 +1,5 @@
-* {
-    margin: 0;
-}
-
-.fond {
-  background-image: url(images/paysage.jpg);
+.background {
+  background-image: url(../images/paysage.jpg);
   background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
