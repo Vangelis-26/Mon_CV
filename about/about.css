@@ -1,3 +1,8 @@
+.background .me {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+}
+
 .me 
 .container-page 
 .container-head h1 {
@@ -36,8 +41,7 @@
 }
 
 .me .container-page .informations span {
-    border-bottom: 1.5px solid #01A3E0;
-    border-radius: 0 5px;
+    border-bottom: 2px solid #01A3E0;
     font-size: 21px;
 }
 
@@ -53,7 +57,7 @@
 }
 
 .me .container-page {
-    margin: 10rem 7rem 0;
+    margin: 8rem 7rem 0;
     padding-left: 0.8rem;
     padding-right: 0.8rem;
     color: whitesmoke;
@@ -73,9 +77,25 @@
 
 .me .container-page .informations li {
     margin-top: 0.5rem;
-    padding-left: 1.7rem;
+    padding-left: 4.5rem;
 }
 
 .me {
     width: 85vw;
+}
+
+.me .container-page .container-quality h2 {
+    margin-top: 4rem;
+    text-decoration: underline;
+}
+
+.me .container-page .container-quality .quality {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.me .container-page .container-quality .quality p {
+    margin-top: 2rem;
 }
