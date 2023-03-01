@@ -1,0 +1,62 @@
+.container-formation h1 {
+    color: #01A3E0;
+    text-shadow: 1px 1px 15px black;
+    opacity: 85%;
+    padding-bottom: 5rem;
+}
+
+.container-formation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85vw;
+    margin-top: 10rem;
+    color: #17181B;
+}
+
+.container-formation .table a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.container-formation .table div {
+    color: whitesmoke;
+    text-align: start;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-radius: 4px;
+    box-shadow: 3px 3px 2px 1px rgba(22, 22, 22, 0.2);
+    padding: 2rem;
+}
+
+.container-formation .table {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 2fr 2fr;
+    gap: 20px;
+}
+
+.container-formation .table .chabrillan {
+    background: linear-gradient(#343A40,#27292e);
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
+
+.container-formation .table .chabrillan:hover {
+    background: linear-gradient(#343A40,#17181B);
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
+
+.container-formation .table .presentation-de-marie {
+    background: linear-gradient(#343A40,#27292e);
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
+
+.container-formation .table .presentation-de-marie:hover {
+    background: linear-gradient(#343A40,#17181B);
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
