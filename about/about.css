@@ -20,20 +20,19 @@
     flex-direction: row;
     justify-content: space-between;
     border-radius: 15px;
-    width: 100%;
 }
 
 .me .container-page .container-about {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 50rem;
 }
 
 .me .container-page .informations {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 35%;
+    width: 30rem;
 }
 
 .me .container-page .informations span {
@@ -78,5 +77,5 @@
 }
 
 .me {
-    width: 85%;
+    width: 85vw;
 }
