@@ -14,12 +14,12 @@
     color: #17181B;
 }
 
-.container-formation a {
+.container-formation .table a {
     color: whitesmoke;
     text-decoration: none;
 }
 
-.table div {
+.container-formation .table div {
     color: whitesmoke;
     text-align: start;
     display: flex;
@@ -31,31 +31,31 @@
     padding: 2rem;
 }
 
-.table {
+.container-formation .table {
     display: grid;
     grid-template-columns: 0.5fr 1fr 2fr 2fr;
     gap: 20px;
 }
 
-.chabrillan {
+.container-formation .table .chabrillan {
     background: linear-gradient(#343A40,#27292e);
     border-radius: 5rem;
     padding: 0.5rem;
 }
 
-.chabrillan:hover {
+.container-formation .table .chabrillan:hover {
     background: linear-gradient(#343A40,#17181B);
     border-radius: 5rem;
     padding: 0.5rem;
 }
 
-.presentation-de-marie {
+.container-formation .table .presentation-de-marie {
     background: linear-gradient(#343A40,#27292e);
     border-radius: 5rem;
     padding: 0.5rem;
 }
 
-.presentation-de-marie:hover {
+.container-formation .table .presentation-de-marie:hover {
     background: linear-gradient(#343A40,#17181B);
     border-radius: 5rem;
     padding: 0.5rem;

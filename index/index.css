@@ -6,7 +6,7 @@
   opacity: 85%;
 }
 
-.presentation {
+.background .presentation {
   display: flex;
   flex-direction: column;
   text-align: center;
