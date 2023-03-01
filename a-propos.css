@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+}
+
+.carre-head h1 {
+    color: #01A3E0;
+    text-shadow: 1px 1px 15px black;
+    opacity: 85%;
+    padding-top: 0.8rem;
+}
+
+.carre-head h1, p {
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.carre-head {
+    border-bottom: 1px dashed #01A3E0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    
+}
+
+.informations {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35%;
+}
+
+.carre-contact {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;  
+}
+
+.carre-page {
+    margin: 10rem 7rem 0;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    color: whitesmoke;
+}
+
+.carre-page h2 {
+    color: #01A3E0;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 1rem;
+}
+
+li {
+    margin-top: 0.5rem;
+    padding-left: 1.7rem;
+}
+
+.carre-contact p {
+    margin-top: 1.7rem;
+    margin-right: 0.5rem;
+}
+
+.title {
+    border-bottom: 1.5px solid #01A3E0;
+    border-radius: 0 5px;
+    font-size: 21px;
+}
