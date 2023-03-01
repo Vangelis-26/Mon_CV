@@ -8,8 +8,8 @@
 .container-navigation .name {
     color: whitesmoke;
     text-align: center;
-    padding-bottom: 1em;
-    font-size: 1.3em;
+    padding-bottom: 1rem;
+    font-size: 1.3rem;
 }
 
 .container-navigation .menu-navigation {
@@ -31,7 +31,7 @@
 .container-navigation .menu-navigation .photo-main nav {
     display: flex;
     flex-direction: column;
-    font-size: 0.9em;
+    font-size: 0.9rem;
 }
 
 .container-navigation .menu-navigation nav a {
@@ -44,7 +44,7 @@
 .container-navigation .contact,
 .container-navigation .formation,
 .container-navigation .career {
-    padding: 1.2em;
+    padding: 1.2rem;
     border-top: 1px solid rgba(52, 58, 64, .5);
 }
 
