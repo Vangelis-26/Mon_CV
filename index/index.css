@@ -3,7 +3,8 @@
   background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 85%;
+  opacity: 85%; 
+  /* Supprimer conflit avec opa body */
 }
 
 .background .presentation {

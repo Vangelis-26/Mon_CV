@@ -1,0 +1,97 @@
+.main-page {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
+    width: 85vw;
+    margin: 8rem 7rem 0;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    color: whitesmoke;
+}
+
+.main-page .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2.5rem;
+    padding-left: 26rem;
+}
+
+.main-page .form .sex,
+.main-page .form .identity,
+.main-page .form .enterprise,
+.main-page .form .message,
+.main-page .form .comment {
+    display: flex;
+    gap: 2rem;
+}
+
+.main-page .form .sex p,
+.main-page .form .identity p,
+.main-page .form .enterprise p,
+.main-page .form .message p,
+.main-page .form .comment p {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-page .form input,
+.main-page .form textarea {
+    width: 20rem;
+    height: 2rem;
+    border: none;
+    border-radius: 3px;
+}
+
+.main-page .form .sex label,
+.main-page .form .identity label,
+.main-page .form .enterprise label,
+.main-page .form .message label,
+.main-page .form .comment label {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.main-page .container-contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px dashed #01A3E0;
+    border-radius: 15px;
+}
+
+.main-page .container-contact h1 {
+    color: #01A3E0;
+    text-shadow: 1px 1px 15px black;
+    opacity: 85%;
+    padding-top: 0.8rem;
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.main-page .container-contact p {
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.main-page .contact-link {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.main-page .contact-link p {
+    margin-top: 2rem;
+    color: #01A3E0;
+}
+
+.main-page .form .button {
+    margin-top: 2rem;
+    padding-left: 10.5rem;
+}
+
+.main-page .form .button input {
+    cursor: pointer;
+}
