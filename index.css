@@ -1,9 +1,9 @@
 .background {
-  background-image: url(../images/paysage.jpg);
+  background-image: url(images/paysage.jpg);
   background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 85%; 
+  opacity: 85%;
   /* Supprimer conflit avec opa body */
 }
 
