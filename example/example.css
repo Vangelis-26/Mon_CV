@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+.background {
+  background-image: url(../images/paysage.jpg);
+  background-color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 85%;
+}
+
+.menu-navigation {
+  position: absolute;
+  inset: 0;
+  background-color: #17181B;
+  width: 15rem;
+  height: 100%;
+}
+
+.menu-navigation .photo-main {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.menu-navigation .name {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.menu-navigation nav a:first-child {
+  border-top: 1px solid rgba(52, 58, 64, .5);
+}
+.menu-navigation nav a {
+  display: block;
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 1.2rem 0 1.2rem 1.2rem;
+  border-bottom: 1px solid rgba(52, 58, 64, .5);
+}
+.menu-navigation nav a.active,
+.menu-navigation nav a:hover {
+  background-color: #343A40;
+}
+
+.content {
+  margin-left: 15rem;
+  padding-top: 8rem;
+  height: 100%;
+}
+.content .presentation {
+  text-align: center;
+  margin: auto;
+  color: #17181B;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 25px;
+  height: 100%;
+}
