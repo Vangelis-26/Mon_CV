@@ -1,6 +1,5 @@
 .content {
     width: 85vw;
-    margin: 8rem 7rem 0;
     padding-left: 0.8rem;
     padding-right: 0.8rem;
     color: whitesmoke;
@@ -54,7 +53,6 @@ ul {
     letter-spacing: 1px;
     color: #01A3E0;
     text-shadow: 1px 1px 15px black;
-    opacity: 85%;
     padding-top: 0.8rem;
     margin-bottom: 2rem;
 }
