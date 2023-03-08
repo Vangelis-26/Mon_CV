@@ -1,4 +1,4 @@
-.main-page {
+.content {
     font-family: 'Playfair Display', serif;
     letter-spacing: 1px;
     width: 85vw;
@@ -8,7 +8,7 @@
     color: whitesmoke;
 }
 
-.main-page .form {
+.content .form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -16,42 +16,42 @@
     padding-left: 26rem;
 }
 
-.main-page .form .sex,
-.main-page .form .identity,
-.main-page .form .enterprise,
-.main-page .form .message,
-.main-page .form .comment {
+.content .form .sex,
+.content .form .identity,
+.content .form .enterprise,
+.content .form .message,
+.content .form .comment {
     display: flex;
     gap: 2rem;
 }
 
-.main-page .form .sex p,
-.main-page .form .identity p,
-.main-page .form .enterprise p,
-.main-page .form .message p,
-.main-page .form .comment p {
+.content .form .sex p,
+.content .form .identity p,
+.content .form .enterprise p,
+.content .form .message p,
+.content .form .comment p {
     display: flex;
     flex-direction: column;
 }
 
-.main-page .form input,
-.main-page .form textarea {
+.content .form input,
+.content .form textarea {
     width: 20rem;
     height: 2rem;
     border: none;
     border-radius: 3px;
 }
 
-.main-page .form .sex label,
-.main-page .form .identity label,
-.main-page .form .enterprise label,
-.main-page .form .message label,
-.main-page .form .comment label {
+.content .form .sex label,
+.content .form .identity label,
+.content .form .enterprise label,
+.content .form .message label,
+.content .form .comment label {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
 
-.main-page .container-contact {
+.content .container-contact {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -59,7 +59,7 @@
     border-radius: 15px;
 }
 
-.main-page .container-contact h1 {
+.content .container-contact h1 {
     color: #01A3E0;
     text-shadow: 1px 1px 15px black;
     opacity: 85%;
@@ -69,29 +69,29 @@
     padding-right: 1.5rem;
 }
 
-.main-page .container-contact p {
+.content .container-contact p {
     margin-bottom: 2rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
 
-.main-page .contact-link {
+.content .contact-link {
     margin-top: 5rem;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
-.main-page .contact-link p {
+.content .contact-link p {
     margin-top: 2rem;
     color: #01A3E0;
 }
 
-.main-page .form .button {
+.content .form .button {
     margin-top: 2rem;
     padding-left: 10.5rem;
 }
 
-.main-page .form .button input {
+.content .form .button input {
     cursor: pointer;
 }

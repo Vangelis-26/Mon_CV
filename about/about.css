@@ -1,25 +1,23 @@
-.background .me {
+.background .content {
     font-family: 'Playfair Display', serif;
     letter-spacing: 1px;
 }
 
-.me 
-.container-page 
-.container-head h1 {
+.content .container-page .container-head h1 {
     color: #01A3E0;
     text-shadow: 1px 1px 15px black;
     opacity: 85%;
     padding-top: 0.8rem;
 }
 
-.me .container-page .container-head h1, 
-.me .container-page .container-head p {
+.content .container-page .container-head h1,
+.content .container-page .container-head p {
     margin-bottom: 2rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
 }
 
-.me .container-page .container-head {
+.content .container-page .container-head {
     border-bottom: 1px dashed #01A3E0;
     display: flex;
     flex-direction: row;
@@ -27,75 +25,75 @@
     border-radius: 15px;
 }
 
-.me .container-page .container-about {
+.content .container-page .container-about {
     display: flex;
     flex-direction: column;
     width: 50rem;
 }
 
-.me .container-page .informations {
+.content .container-page .informations {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 30rem;
 }
 
-.me .container-page .informations span {
+.content .container-page .informations span {
     border-bottom: 2px solid #01A3E0;
     font-size: 21px;
 }
 
-.me .container-page .container-contact {
+.content .container-page .container-contact {
     display: flex;
     justify-content: space-between;
-    margin-top: 2.5rem;  
+    margin-top: 2.5rem;
 }
 
-.me .container-page .container-contact p {
+.content .container-page .container-contact p {
     margin-top: 1.7rem;
     margin-right: 0.5rem;
 }
 
-.me .container-page {
+.content .container-page {
     margin: 8rem 7rem 0;
     padding-left: 0.8rem;
     padding-right: 0.8rem;
     color: whitesmoke;
 }
 
-.me .container-page h2 {
+.content .container-page h2 {
     color: #01A3E0;
     margin-top: 1.5rem;
     text-align: center;
 }
 
-.me .container-page .informations ul {
+.content .container-page .informations ul {
     list-style-type: none;
     padding: 0;
     margin-top: 1rem;
 }
 
-.me .container-page .informations li {
+.content .container-page .informations li {
     margin-top: 0.5rem;
     padding-left: 4.5rem;
 }
 
-.me {
+.content {
     width: 85vw;
 }
 
-.me .container-page .container-quality h2 {
+.content .container-page .container-quality h2 {
     margin-top: 4rem;
     text-decoration: underline;
 }
 
-.me .container-page .container-quality .quality {
+.content .container-page .container-quality .quality {
     margin-top: 5rem;
     display: flex;
     justify-content: space-between;
     text-align: center;
 }
 
-.me .container-page .container-quality .quality p {
+.content .container-page .container-quality .quality p {
     margin-top: 2rem;
 }
