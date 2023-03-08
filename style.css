@@ -13,4 +13,6 @@ body {
     padding-top: 8rem;
     height: 100%;
     padding: 8rem 7rem;
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 1px;
 }
