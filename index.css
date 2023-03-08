@@ -3,19 +3,20 @@
   background-color: white;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 85%;
-  /* Supprimer conflit avec opa body */
 }
 
-.background .presentation {
-  display: flex;
-  flex-direction: column;
+.content {
+  margin-left: 15rem;
+  padding-top: 8rem;
+  height: 100%;
+}
+
+.content .presentation {
   text-align: center;
   margin: auto;
   color: #17181B;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 25px;
-  padding-bottom: 28rem;
-  padding-right: 8rem;
+  height: 100%;
 }
