@@ -1,52 +1,36 @@
-.container-navigation {
-    display: flex;
-    height: 100vh;
-    justify-content: space-between;
+.menu-navigation {
+    position: absolute;
+    inset: 0;
+    background-color: #17181B;
+    width: 15rem;
+    height: 100%;
 }
 
-.container-navigation .name {
+.menu-navigation .photo-main {
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.menu-navigation .name {
     color: whitesmoke;
     text-align: center;
-    padding-bottom: 1rem;
     font-size: 1.3rem;
+    margin-bottom: 1rem;
 }
 
-.container-navigation .menu-navigation {
-    background-color: #17181B;
-    display: flex;
-    flex-direction: column;
-    width: 15rem;
-    height: 100vh;
-}
-
-.container-navigation .photo-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}
-
-.container-navigation .menu-navigation .photo-main nav {
-    display: flex;
-    flex-direction: column;
-    font-size: 0.9rem;
-}
-
-.container-navigation .menu-navigation nav a {
-    text-decoration: none;
-    color: whitesmoke;
-}
-
-.container-navigation .index,
-.container-navigation .about,
-.container-navigation .contact,
-.container-navigation .formation,
-.container-navigation .career {
-    padding: 1.2rem;
+.menu-navigation nav a:first-child {
     border-top: 1px solid rgba(52, 58, 64, .5);
 }
 
-.container-navigation .contact {
+.menu-navigation nav a {
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 1.2rem 0 1.2rem 1.2rem;
     border-bottom: 1px solid rgba(52, 58, 64, .5);
+}
+
+.menu-navigation nav a.active,
+.menu-navigation nav a:hover {
+    background-color: #343A40;
 }
