@@ -1,4 +1,4 @@
-.background .content {
+.content {
     font-family: 'Playfair Display', serif;
     letter-spacing: 1px;
 }
@@ -55,10 +55,10 @@
 }
 
 .content .container-page {
-    margin: 8rem 7rem 0;
     padding-left: 0.8rem;
     padding-right: 0.8rem;
     color: whitesmoke;
+    height: 100%;
 }
 
 .content .container-page h2 {
