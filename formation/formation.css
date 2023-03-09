@@ -2,15 +2,24 @@
     color: #01A3E0;
     text-shadow: 1px 1px 15px black;
     opacity: 85%;
-    padding-bottom: 5rem;
+    padding-top: 0.8rem;
 }
 
-.content {
+.content .container-head {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 85vw;
-    color: #17181B;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px dashed #01A3E0;
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 0.5rem;
+}
+
+.content .container-head p {
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
 }
 
 .content .table a {
@@ -27,13 +36,16 @@
     border-bottom: 1px solid rgb(0, 0, 0);
     border-radius: 4px;
     box-shadow: 3px 3px 2px 1px rgba(22, 22, 22, 0.2);
-    padding: 2rem;
+    padding: 1rem 3rem;
+
 }
 
 .content .table {
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr;
-    gap: 20px;
+    grid-template-columns: 1fr 1.6fr 1.6fr;
+    gap: 30px;
+    margin-top: 2.5rem;
+    padding: 4rem 14rem;
 }
 
 .content .table .chabrillan {
@@ -55,6 +67,18 @@
 }
 
 .content .table .presentation-de-marie:hover {
+    background: linear-gradient(#343A40, #17181B);
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
+
+.content .table .academie-entreprise {
+    background: linear-gradient(#343A40, #27292e);
+    border-radius: 5rem;
+    padding: 0.5rem;
+}
+
+.content .table .academie-entreprise:hover {
     background: linear-gradient(#343A40, #17181B);
     border-radius: 5rem;
     padding: 0.5rem;
