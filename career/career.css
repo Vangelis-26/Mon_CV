@@ -74,3 +74,8 @@ ul {
     border-bottom: 1px dashed #01A3E0;
     padding: 0.5rem;
 }
+
+.content .enterprise h3 {
+    color: #17181B;
+    font-style: oblique;
+}
