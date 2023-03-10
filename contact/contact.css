@@ -59,13 +59,12 @@
 }
 
 .content .container-contact h1 {
-    color: #01A3E0;
+    color: rgba(1, 163, 224, 0.85);
     text-shadow: 1px 1px 15px black;
     padding-top: 0.8rem;
     margin-bottom: 2rem;
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-    opacity: 85%;
 }
 
 .content .container-contact p {
