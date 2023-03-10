@@ -55,6 +55,7 @@ ul {
     text-shadow: 1px 1px 15px black;
     padding-top: 0.8rem;
     margin-bottom: 2rem;
+    opacity: 85%;
 }
 
 .content ul {

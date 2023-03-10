@@ -1,8 +1,18 @@
-.content h1 {
+.content {
+    width: 85vw;
+    padding-left: 0.8rem;
+    padding-right: 0.8rem;
+    color: whitesmoke;
+
+}
+
+.content .container-head h1 {
+    letter-spacing: 1px;
     color: #01A3E0;
     text-shadow: 1px 1px 15px black;
-    opacity: 85%;
     padding-top: 0.8rem;
+    margin-bottom: 2rem;
+    opacity: 85%;
 }
 
 .content .container-head {
